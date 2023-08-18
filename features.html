@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Lightsprint SDK features - Realtime Global Illumination</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="keywords" content="light, sprint, global, illumination, radiosity, engine, 3d, collision, intersection, realtime, game, development, developer, dee, shadow, vector, bitmap, map, fast">
+<meta name="description" content="Fast Realtime Radiosity engine">
+<link rel="stylesheet" type="text/css" href="styl.css"></head><body leftmargin="0" topmargin="0" background="gui/bkg.gif" bgcolor="#a3a3a3" marginheight="0" marginwidth="0">
+<br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="44" width="763"><tbody><tr>
+<td bgcolor="#0054a7" width="13"><img src="gui/top_b.gif" border="0" height="44" width="13"></td>
+<!-- MENU >> -->
+<td background="gui/top_bkg.gif" bgcolor="#0054a7"><a href="index.html" class="topmenu">Home</a></td>
+<td bgcolor="#0054a7" width="19"><img src="gui/top_div.gif" border="0" height="44" width="19"></td>
+<td background="gui/top_bkg.gif" bgcolor="#0054a7"><a href="features.html" class="topmenu">Features</a></td>
+<td bgcolor="#0054a7" width="19"><img src="gui/top_div.gif" border="0" height="44" width="19"></td>
+<td background="gui/top_bkg.gif" bgcolor="#0054a7"><a href="demo.html" class="topmenu">Demo</a></td>
+<td bgcolor="#0054a7" width="19"><img src="gui/top_div.gif" border="0" height="44" width="19"></td>
+<td background="gui/top_bkg.gif" bgcolor="#0054a7"><a href="evaluation.html" class="topmenu">Evaluation</a></td>
+<td bgcolor="#0054a7" width="19"><img src="gui/top_div.gif" border="0" height="44" width="19"></td>
+<td background="gui/top_bkg.gif" bgcolor="#0054a7"><a href="charity.html" class="topmenu">For&nbsp;better&nbsp;world</a></td>
+<td bgcolor="#0054a7" width="19"><img src="gui/top_div.gif" border="0" height="44" width="19"></td>
+<td background="gui/top_bkg.gif" bgcolor="#0054a7"><a href="contact.html" class="topmenu">Contact</a></td>
+<!-- << MENU -->
+<td background="gui/top_bkg.gif" bgcolor="#0054a7" width="100%"><img src="gui/top_bkg.gif" border="0" height="44" width="10"></td>
+<td bgcolor="#0054a7" width="17"><img src="gui/top_e.gif" border="0" height="44" width="17"></td>
+<td bgcolor="#0054a7" width="179"><img src="gui/top_logo.gif" border="0" height="44" width="179"></td>
+</tr></tbody></table>
+ 
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="6" width="763"><tbody><tr>
+<td width="10"><img src="gui/shd_b.gif" border="0" height="6" width="10"></td>
+<td background="gui/shd_m.gif" width="744"><img src="gui/shd_m.gif" border="0" height="6" width="4"></td>
+<td width="9"><img src="gui/shd_e.gif" border="0" height="6" width="9"></td>
+</tr></tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="102" width="763"><tbody><tr>
+<td><img src="gui/lightsprint.jpg" alt="Lightsprint - realtime global illumination" border="0" height="102" width="763"></td>
+</tr></tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="6" width="763"><tbody><tr>
+<td width="10"><img src="gui/shd_b.gif" border="0" height="6" width="10"></td>
+<td background="gui/shd_m.gif" width="744"><img src="gui/shd_m.gif" border="0" height="6" width="4"></td>
+<td width="9"><img src="gui/shd_e.gif" border="0" height="6" width="9"></td>
+</tr></tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="6" width="763"><tbody><tr>
+<td background="gui/mbkg.gif" bgcolor="#ffe2a7" valign="top" width="30">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr bgcolor="#fcbd64"><td width="12"><img src="gui/mmb.gif" border="0" height="33" width="12"></td>
+ <td background="gui/mmbbkg.gif" valign="middle" width="100%"></td>
+</tr><tr bgcolor="#ffe2a7"><td background="gui/mmeb.gif" width="12"><img src="gui/mmeb.gif" border="0" height="6" width="12"></td>
+ <td width="100%">&nbsp;</td>
+</tr>
+</tbody></table></td>
+<td bgcolor="#ffffff" valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr><td bgcolor="#0054a7" width="27"><img src="gui/ch_b.gif" border="0" height="33" width="27"></td>
+<td class="ntitle" background="gui/ch_m.gif" bgcolor="#0054a7" valign="middle" width="100%">
+
+Lightsprint SDK features
+</td><td bgcolor="#0054a7" width="21"><img src="gui/ch_e.gif" border="0" height="33" width="21"></td></tr><tr><td background="gui/clbkg.gif" width="27"><img src="gui/clbkg.gif" border="0" height="6" width="27"></td><td bgcolor="#ffffff" valign="top" width="100%"><br>
+
+Brief list of features, many of them unique:
+
+<pre>
+<b>Platforms</b>
+- Windows 32bit, 64bit
+- OSX 64bit
+- Linux 32bit, 64bit (SteamOS, Ubuntu..)
+- Playstation 3, 4
+- Xbox 360, One
+- Wii, Wii U
+- virtually any platform (static GI)
+
+</pre><p>
+<a href="img/1024/water_deep.jpg"   ><img alt="stereo" src="img/320/water_deep.jpg"    style="border: 0px solid ; width: 320px; height: 320px;" hspace="0" vspace="2"></a>
+<a href="img/1024/water_shallow.jpg"><img alt="stereo" src="img/320/water_shallow.jpg" style="border: 0px solid ; width: 320px; height: 320px;" hspace="0" vspace="2"></a>
+<br><i>Images: realtime GI with deep water, shallow water</i>
+<p><pre>
+
+<b>Global illumination</b>
+- realtime global illumination / realtime radiosity / realtime raytracing
+- realtime penumbra shadows, soft shadows, RGB shadows, RGB blending
+- realtime color bleeding
+- dynamic lights
+- dynamic objects
+- dynamic skybox
+- multithreaded, all cores/CPUs and GPU work at once
+- offline processing ready for render farms
+- everything computed in HDR
+- custom scale on inputs/outputs (HDR/sRGB/other)
+- scene size not limited
+
+</pre><p>
+<a href="img/1200/environment1.jpg"><img alt="skylight"     src="img/320/environment1.jpg" style="border: 0px solid ; width: 320px; height: 320px;" hspace="0" vspace="2"></a>
+<a href="img/1200/environment2.jpg"><img alt="skylight"     src="img/320/environment2.jpg" style="border: 0px solid ; width: 320px; height: 320px;" hspace="0" vspace="2"></a>
+<br><i>Images: Realtime GI from skybox - LDR, HDR</i>
+<p><pre>
+
+<b>Light source formats (inputs)</b>
+- spot/point/directional lights
+- area lights
+- projected texture, projected video, projected video capture
+- environment (LDR, HDR skyboxes, 360 degree panorama/video/capture, blend of environments)
+- emissive materials (LDR, HDR textures, video, video capture)
+
+<b>Lighting computed (outputs)</b>
+- lightmap
+- directional lightmap for radiosity normal mapping/RNM
+- ambient map
+- ambient occlusion map, global ambient occlusion
+- diffuse environment map
+- specular environment map
+- bent normal map
+- vertex buffer with lighting, ambient occlusion or bent normals
+- illumination of triangle or vertex
+- illumination at ray scene intersection
+- any combination of direct/indirect/global illumination
+
+</pre><p>
+<a href="img/1024/shadow8bit.jpg"         ><img alt="RGB shadows+RGB blending" src="img/212/shadow8bit.jpg"          style="border: 0px solid ; width: 212px; height: 212px;" hspace="0" vspace="2"></a>
+<a href="img/1024/shadow24bit.jpg"        ><img alt="monochromatic shadows"    src="img/212/shadow24bit.jpg"         style="border: 0px solid ; width: 212px; height: 212px;" hspace="0" vspace="2"></a>
+<a href="img/1024/shadow24bit+fresnel.jpg"><img alt="alpha blending"           src="img/212/shadow24bit+fresnel.jpg" style="border: 0px solid ; width: 212px; height: 212px;" hspace="0" vspace="2"></a>
+<br><i>Images: Alpha blending, RGB blending+RGB shadows, Fresnel blending+Fresnel shadows</i>
+<p><pre>
+
+<b>Renderers</b>
+- integrates with external renderers
+- includes modern OpenGL plugins based renderer
+
+<b>Stereo rendering</b>
+- Oculus Rift integration
+- interlaced
+- side-by-side, top-down
+
+<b>360 degree panorama rendering</b>
+- equirectangular
+- little planet
+
+</pre><p>
+<a href="img/500/stereo1.png"><img alt="stereo" src="img/320/stereo1.png" style="border: 0px solid ; width: 320px; height: 500px;" hspace="0" vspace="2"></a>
+<a href="img/500/stereo2.png"><img alt="stereo" src="img/320/stereo2.png" style="border: 0px solid ; width: 320px; height: 500px;" hspace="0" vspace="2"></a>
+<br><i>Images: Interlaced stereo, requires interlaced stereo display, native resolution, scroll to swap eyes</i>
+<p><pre>
+
+<a name="formats"></a>
+<b>Scene formats</b>
+- Collada ( *.dae )
+- Gamebryo LightSpeed 3.x
+- Gamebryo 2.6 ( *.gsa )
+- Unreal Engine 3
+- Lightsprint ( *.rr3 )
+- 3D GameStudio ( *.mdl;*.hmp )
+- 3D Studio Max ( *.3ds;*.ase )
+- AC3D ( *.ac )
+- AutoCAD ( *.dxf )
+- Autodesk FBX ( *.fbx )
+- Biovision ( *.bvh )
+- Blender ( *.blend )
+- BlitzBasic ( *.b3d )
+- CharacterStudio ( *.csm )
+- DirectX ( *.x )
+- GL Transmission Format ( *.glTF, *.glB )
+- id Software
+  - Quake I ( *.mdl )
+  - Quake II ( *.md2 )
+  - Quake III ( *.md3,*.bsp,*.pk3 )
+  - Doom 3 ( *.md5mesh )
+  - Return to Castle Wolfenstein ( *.mdc )
+- Industry Foundation Classes ( *.ifc;*.ifczip )
+- Irrlicht ( *.irr;*.irrmesh;*.xml )
+- Izware Nendo ( *.ndo )
+- LightWave ( *.lwo;*.lws )
+- MODO ( *.lxo )
+- Neutral File Format ( *.nff;*.enff )
+- Material and Geometry Format ( *.mgf )
+- Milkshape 3D ( *.ms3d )
+- Object File Format ( *.off )
+- Ogre 3D ( *.mesh.xml;*.material )
+- PovRAY ( *.raw )
+- Quick3D ( *.q3o;*q3s )
+- Raw Triangles ( *.raw )
+- Sense8 WorldToolkit ( *.nff )
+- Stanford Polygon Library ( *.ply )
+- Starcraft 2 ( *.m3 )
+- Stereolithography ( *.stl )
+- Terragen Terrain ( *.ter )
+- TrueSpace ( *.cob;*.scn )
+- Unreal ( *.3d;*.uc )
+- Valve ( *.smd,*.vta )
+- Wavefront ( *.obj )
+- XGL ( *.xgl;*.zgl )
+- others ( *.acc;*.ask;*.mot;*.prj )
+- framework for custom formats
+- complete source code
+
+</pre><p>
+<a href="img/1200/light-spot.jpg" ><img alt="spot light"        src="img/212/light-spot.jpg"  style="border: 0px solid ; width: 212px; height: 212px;" hspace="0" vspace="2"></a>
+<a href="img/1200/light-point.jpg"><img alt="point light"       src="img/212/light-point.jpg" style="border: 0px solid ; width: 212px; height: 212px;" hspace="0" vspace="2"></a>
+<a href="img/1200/light-dir.jpg"  ><img alt="directional light" src="img/212/light-dir.jpg"   style="border: 0px solid ; width: 212px; height: 212px;" hspace="0" vspace="2"></a>
+<br><i>Images: Realtime GI from lights - spot, point, directional</i>
+<p><pre>
+
+<b>Texture formats</b>
+- JPG, PNG, HDR, EXR, DDS, JPEG-2000, TGA, BMP, TIF, GIF, PCX,
+  PSD, JNG, XBM, XPM, IFF, MNG, PBM, PGM, PPM, PFM, CUT, SGI,
+  RAW, ICO, PICT, RAS, WBMP, KOALA, PhotoCD...
+- cube textures
+- 96bit and 128bit float textures
+
+<b>Video formats</b>
+- AVI
+- WMV
+- ASF
+- MPG, MPEG
+- any other format with codec installed (MOV, MKV etc)
+
+</pre><p>
+<img alt="scene editor" src="img/320/SceneViewer_2.jpg" style="border: 0px solid ; width: 320px; height: 240px;" hspace="0" vspace="2">
+<img alt="scene import" src="img/320/SceneViewer_3.jpg" style="border: 0px solid ; width: 320px; height: 240px;" hspace="0" vspace="2">
+<br><i>Images: Lightsprint scene viewer/editor</i>
+<p><pre>
+
+<b>Materials</b>
+- supports all types of materials
+- diffuse/specular/emissive/opacity/normalmap slots
+- video files and live video capture can be used in all slots
+- water with waves and reflection
+
+<b>Unwrap</b>
+- imports your unwrap
+- automatically builds new unwrap
+
+<b>Tangent space</b>
+- imports your tangent space
+- automatically builds new tangent space
+
+<b>Realtime/precomputed</b>
+- supports realtime illumination
+- supports precomputed illumination
+- supports mix of realtime and precomputed illumination
+
+</pre><p>
+<a href="img/800/LightsprintRealtimeRadiosity11.jpg"><img alt="hard shadows"     src="img/212/LightsprintRealtimeRadiosity11.jpg" style="border: 0px solid ; width: 212px; height: 169px;" hspace="0" vspace="2"></a>
+<a href="img/800/LightsprintRealtimeRadiosity12.jpg"><img alt="soft shadows"     src="img/212/LightsprintRealtimeRadiosity12.jpg" style="border: 0px solid ; width: 212px; height: 169px;" hspace="0" vspace="2"></a>
+<a href="img/800/LightsprintRealtimeRadiosity13.jpg"><img alt="penumbra shadows" src="img/212/LightsprintRealtimeRadiosity13.jpg" style="border: 0px solid ; width: 212px; height: 169px;" hspace="0" vspace="2"></a>
+<br><i>Images: Realtime shadows - hard, soft, penumbra.</i>
+<p><pre>
+
+<b>Ray-Mesh collisions</b>
+- up to 200x faster than commercial physical engines
+- up to 10x smaller memory footprint than commercial physical engines
+- multithreaded
+- up to 4294967295 vertices in mesh
+- up to 1073741824 triangles in mesh
+- triangle lists/strips/indexed/nonindexed
+- floats, doubles, halfs, ints, shorts
+- custom mesh data structures without data duplication
+- uniform scaling, non uniform scaling
+- singlesided tests, doublesided tests
+- number of sides defined by material
+- return one or gather all collisions
+- custom action at collision
+- returns intersection distance, 2D and 3D position
+- returns normal, plane and face side that was hit
+- high precision, higher than commercial physical engines
+- high reliability, 7 years under heavy load
+</pre>
+
+
+
+</td>
+<td background="gui/crbkg.gif" width="21"><img src="gui/crbkg.gif" border="0" height="6" width="21"></td>
+</tr></tbody></table>
+</td></tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="763">
+<tbody><tr>
+<td width="12"><img src="gui/mmdb.gif" border="0" height="18" width="12"></td>
+ <td background="gui/mmdd.gif" width="164"><img src="gui/mmdd.gif" border="0" height="18" width="18"></td>
+<td bgcolor="#0054a7" width="27"><img src="gui/cd_b.gif" border="0" height="18" width="27"></td>
+<td background="gui/cd_m.gif" bgcolor="#0054a7" valign="middle" width="100%"><img src="gui/cd_m.gif" border="0" height="18" width="27"></td>
+<td bgcolor="#0054a7" width="21"><img src="gui/cd_e.gif" border="0" height="18" width="21"></td>
+</tr></tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="6" width="763"><tbody><tr>
+<td width="10"><img src="gui/shd_b.gif" border="0" height="6" width="10"></td>
+<td background="gui/shd_m.gif" width="744"><img src="gui/shd_m.gif" border="0" height="6" width="4"></td>
+<td width="9"><img src="gui/shd_e.gif" border="0" height="6" width="9"></td>
+</tr></tbody></table>
+
+</body></html>
