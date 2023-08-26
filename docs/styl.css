@@ -1,56 +1,30 @@
-body{
-font-family : arial;font-size : 12px;color : #000000;font-weight : normal;
+body
+{
+	font-family : arial;font-size : 12px;color : #000000;font-weight : normal;
 }
 	  	
-td{   font-family : arial;
-     	font-size : 12px;
-     	color : #000000;
-     	font-weight :  normal;
-     	text-decoration : none;}
+td
+{
+	font-family : arial;
+	font-size : 12px;
+	color : #000000;
+	font-weight :  normal;
+	text-decoration : none;
+}
 
+.ntitle
+{
+	color:#ffffff;
+	font-size : 15px;
+	font-weight : bold;
+}
 
+a:link		{font-weight : bold; color : #000000;font-family : arial;}
+a:visited	{font-weight : bold; color : #000000;font-family : arial;}
+a:active	{font-weight : bold; color : #000000;font-family : arial;}
+a:hover		{color : #000000; text-decoration:underline;}
 
-.nblue{color:#004284;
-     	 font-weight :  bold;}
-
-.ntitle{color:#ffffff;
-        font-size : 15px;
-     	  font-weight :  bold;}
-
-a:link{ font-weight : bold; color : #000000;font-family : arial;}
-a:visited{font-weight : bold; color : #000000;font-family : arial;}
-a:active{font-weight : bold; color : #000000;font-family : arial;}
-a:hover {color : #000000; text-decoration:underline;}
-
-a:link.menu{ text-decoration : none;font-weight : bold; color : #000000;font-family : arial;}
-a:visited.menu{text-decoration : none;font-weight : bold; color : #000000;font-family : arial;}
-a:active.menu{text-decoration : none;font-weight : bold; color : #000000;font-family : arial;}
-a:hover.menu {color : #000000; text-decoration:underline;}
-
-a:link.topmenu{ text-decoration : none;font-weight : bold; color: #ffffff; font-family : arial; font-size : 13px;}
+a:link.topmenu	{text-decoration : none;font-weight : bold; color: #ffffff; font-family : arial; font-size : 13px;}
 a:visited.topmenu{text-decoration : none;font-weight : bold; color : #ffffff;font-family : arial; font-size : 13px;}
 a:active.topmenu{text-decoration : none;font-weight : bold; color : #ffffff;font-family : arial; font-size : 13px;}
-a:hover.topmenu{color : #FCBB61; text-decoration:none;}
-
-
-        
-.inputbox {
-	BACKGROUND:#c5cEdE;
-	BORDER-BOTTOM: #7A8398 2px solid;
-	BORDER-LEFT: #7A8398 2px solid;
-	BORDER-RIGHT: #7A8398 2px solid;
-	BORDER-TOP: #7A8398 2px solid;
-	FONT-FAMILY: arial,sans-serif;
-	FONT-SIZE: 12px;
-}
-        
-.inputButton {
-	BACKGROUND:#7A8398;
-	BORDER-BOTTOM: #B5BECE 2px solid;
-	BORDER-LEFT: #B5BECE 2px solid;
-	BORDER-RIGHT: #B5BECE 2px solid;
-	BORDER-TOP: #B5BECE 2px solid;
-	FONT-FAMILY: arial,sans-serif;
-	FONT-SIZE: 12px;
-	font-weight : bold; 
-}        	
+a:hover.topmenu	{color : #FCBB61; text-decoration:none;}
